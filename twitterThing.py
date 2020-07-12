@@ -1,12 +1,10 @@
 # Imports
 import tweepy
 import webbrowser
-import tkinter as tk
-from tkinter import *
 import pyperclip as pb
 
 #Passwords and stuff idk
-auth = tweepy.OAuthHandler("H07fh19J1pGWArifdPyKsQ99D", "Z7IJuk5R1BafyZH1Urcrp5WLv0gC7P7TBIlXkxxDxD4McTuL25")
+auth = tweepy.OAuthHandler("H07fh19J1pGWArifdPyKsQ99D", "Z7IJuk5R1BafyZH1Urcrp5WLv0gC7P7TBIlXkxxDxD4McTuL25") #These wont work dont try and use them 
 auth.set_access_token("900251723767336961-JjsEBlMVGTYCSR7gUf8nR6RlEGXmwZx", "2vFoKfUowvKlYf53BAORlN5JrbRrkVxAnl2LrRzPPSfIz")
 api = tweepy.API(auth) # API
 
